@@ -1,0 +1,214 @@
+[
+  {
+    "audit_id": "AUD-E34096FBCC72",
+    "case_id": "NET-001",
+    "timestamp": "2026-08-24T14:42:03.169488+00:00",
+    "deterministic_result": {
+      "findings": [
+        {
+          "rule_id": "INTERFACE_ADMIN_DOWN",
+          "status": "ERROR",
+          "evidence": "GigabitEthernet0/0.10 is administratively down line protocol is down",
+          "message": "Interface 'GigabitEthernet0/0.10' is administratively down."
+        }
+      ],
+      "rules_checked": 28
+    },
+    "ai_diagnosis": {
+      "root_cause": "Interface shutdown state: Interface 'GigabitEthernet0/0.10' is administratively down.",
+      "osi_layer": "Layer 3",
+      "confidence": 0.96,
+      "evidence": [
+        "GigabitEthernet0/0.10 is administratively down line protocol is down"
+      ],
+      "next_command": "show ip interface brief",
+      "fix_steps": [
+        "configure terminal",
+        "interface GigabitEthernet0/0.10",
+        "no shutdown",
+        "end",
+        "write memory"
+      ]
+    },
+    "review_decision": "ACCEPT",
+    "final_approved_output": {
+      "root_cause": "Interface shutdown state: Interface 'GigabitEthernet0/0.10' is administratively down.",
+      "osi_layer": "Layer 3",
+      "confidence": 0.96,
+      "evidence": [
+        "GigabitEthernet0/0.10 is administratively down line protocol is down"
+      ],
+      "next_command": "show ip interface brief",
+      "fix_steps": [
+        "configure terminal",
+        "interface GigabitEthernet0/0.10",
+        "no shutdown",
+        "end",
+        "write memory"
+      ]
+    },
+    "reviewer_notes": "",
+    "was_ai_corrected": false,
+    "edit_diff": null,
+    "rejection_reason": null
+  },
+  {
+    "audit_id": "AUD-B84D6AB77B02",
+    "case_id": "NET-001",
+    "timestamp": "2026-08-24T14:44:48.310926+00:00",
+    "deterministic_result": {
+      "findings": [
+        {
+          "rule_id": "INTERFACE_ADMIN_DOWN",
+          "status": "ERROR",
+          "evidence": "GigabitEthernet0/0.10 is administratively down line protocol is down",
+          "message": "Interface 'GigabitEthernet0/0.10' is administratively down."
+        }
+      ],
+      "rules_checked": 28
+    },
+    "ai_diagnosis": {
+      "root_cause": "Interface shutdown state: Interface 'GigabitEthernet0/0.10' is administratively down.",
+      "osi_layer": "Layer 3",
+      "confidence": 0.96,
+      "evidence": [
+        "GigabitEthernet0/0.10 is administratively down line protocol is down"
+      ],
+      "next_command": "show ip interface brief",
+      "fix_steps": [
+        "configure terminal",
+        "interface GigabitEthernet0/0.10",
+        "no shutdown",
+        "end",
+        "write memory"
+      ]
+    },
+    "review_decision": "ACCEPT",
+    "final_approved_output": {
+      "root_cause": "Interface shutdown state: Interface 'GigabitEthernet0/0.10' is administratively down.",
+      "osi_layer": "Layer 3",
+      "confidence": 0.96,
+      "evidence": [
+        "GigabitEthernet0/0.10 is administratively down line protocol is down"
+      ],
+      "next_command": "show ip interface brief",
+      "fix_steps": [
+        "configure terminal",
+        "interface GigabitEthernet0/0.10",
+        "no shutdown",
+        "end",
+        "write memory"
+      ]
+    },
+    "reviewer_notes": "",
+    "was_ai_corrected": false,
+    "edit_diff": null,
+    "rejection_reason": null
+  },
+  {
+    "audit_id": "AUD-538D89AE49F8",
+    "case_id": "NET-001",
+    "timestamp": "2026-08-24T14:46:49.571740+00:00",
+    "deterministic_result": {
+      "findings": [
+        {
+          "rule_id": "INTERFACE_ADMIN_DOWN",
+          "status": "ERROR",
+          "evidence": "GigabitEthernet0/0.10 is administratively down line protocol is down",
+          "message": "Interface 'GigabitEthernet0/0.10' is administratively down."
+        }
+      ],
+      "rules_checked": 28
+    },
+    "ai_diagnosis": {
+      "root_cause": "Interface shutdown state: Interface 'GigabitEthernet0/0.10' is administratively down.",
+      "osi_layer": "Layer 3",
+      "confidence": 0.96,
+      "evidence": [
+        "GigabitEthernet0/0.10 is administratively down line protocol is down"
+      ],
+      "next_command": "show ip interface brief",
+      "fix_steps": [
+        "configure terminal",
+        "interface GigabitEthernet0/0.10",
+        "no shutdown",
+        "end",
+        "write memory"
+      ]
+    },
+    "review_decision": "ACCEPT",
+    "final_approved_output": {
+      "root_cause": "Interface shutdown state: Interface 'GigabitEthernet0/0.10' is administratively down.",
+      "osi_layer": "Layer 3",
+      "confidence": 0.96,
+      "evidence": [
+        "GigabitEthernet0/0.10 is administratively down line protocol is down"
+      ],
+      "next_command": "show ip interface brief",
+      "fix_steps": [
+        "configure terminal",
+        "interface GigabitEthernet0/0.10",
+        "no shutdown",
+        "end",
+        "write memory"
+      ]
+    },
+    "reviewer_notes": "",
+    "was_ai_corrected": false,
+    "edit_diff": null,
+    "rejection_reason": null
+  },
+  {
+    "audit_id": "AUD-564CA98CE5AB",
+    "case_id": "NET-001",
+    "timestamp": "2026-08-25T04:22:41.039105+00:00",
+    "deterministic_result": {
+      "findings": [
+        {
+          "rule_id": "INTERFACE_ADMIN_DOWN",
+          "status": "ERROR",
+          "evidence": "GigabitEthernet0/0.10 is administratively down line protocol is down",
+          "message": "Interface 'GigabitEthernet0/0.10' is administratively down."
+        }
+      ],
+      "rules_checked": 28
+    },
+    "ai_diagnosis": {
+      "root_cause": "Interface shutdown state: Interface 'GigabitEthernet0/0.10' is administratively down.",
+      "osi_layer": "Layer 3",
+      "confidence": 0.96,
+      "evidence": [
+        "GigabitEthernet0/0.10 is administratively down line protocol is down"
+      ],
+      "next_command": "show ip interface brief",
+      "fix_steps": [
+        "configure terminal",
+        "interface GigabitEthernet0/0.10",
+        "no shutdown",
+        "end",
+        "write memory"
+      ]
+    },
+    "review_decision": "ACCEPT",
+    "final_approved_output": {
+      "root_cause": "Interface shutdown state: Interface 'GigabitEthernet0/0.10' is administratively down.",
+      "osi_layer": "Layer 3",
+      "confidence": 0.96,
+      "evidence": [
+        "GigabitEthernet0/0.10 is administratively down line protocol is down"
+      ],
+      "next_command": "show ip interface brief",
+      "fix_steps": [
+        "configure terminal",
+        "interface GigabitEthernet0/0.10",
+        "no shutdown",
+        "end",
+        "write memory"
+      ]
+    },
+    "reviewer_notes": "",
+    "was_ai_corrected": false,
+    "edit_diff": null,
+    "rejection_reason": null
+  }
+]
